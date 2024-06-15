@@ -1,0 +1,11 @@
+ftfy==6.1.1
+h5py==3.3.0
+numpy==1.20.3
+Pillow==9.4.0
+regex==2021.10.23
+timm==0.6.12
+torch==1.13.1
+torchvision==0.14.1+cu117 
+tqdm==4.62.3
+opencv-contrib-python==4.7.0.72
+opencv-python==4.8.0.74 
