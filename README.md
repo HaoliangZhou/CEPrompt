@@ -9,8 +9,8 @@ pip install -r requirements.txt
 ```
 
 2. Download pretrained VLP(ViT-B/16) model from [OpenAI CLIP](https://github.com/openai/CLIP).
----
 
+---
 ## Data Preparation
 1. The downloaded [RAF-DB](http://www.whdeng.cn/RAF/model1.html) are reorganized as follow:
 ```
@@ -65,6 +65,10 @@ idx | train(1) or test(0)
 ```
 
 ---
+## Model checkpoints
+- Download model checkpoints from [Google Drive](https://drive.google.com/drive/folders/1xd85nIySAkoMZQr281HbaEFFhkKHaHAA?usp=sharing).
+
+---
 ## Training
 ### Train First Stage (EVA)
 ```
@@ -86,8 +90,8 @@ bash stage1.sh
 ```
 bash stage2.sh
 ```
----
 
+---
 ## Evaluation
 ```
 python3 train_fer_second_stage.py \ 
@@ -98,28 +102,17 @@ python3 train_fer_second_stage.py \
 --eval-ckpt ${EVACKPTPATH}   # path to second stage ckpt
 ```
 
-[comment]: <> (---)
+<!-- ---
+## Cite Our Work
+If you find our work helps, please cite our paper.
+```
+bibtex
+``` -->
 
-[comment]: <> (## Cite Our Work)
+---
+## Contact
+For any questions, welcome to create an issue or email to <a href="mailto:haoliangzhou6@gmail.com">haoliangzhou6@gmail.com</a>.
 
-[comment]: <> (If you find our work helps, please cite our paper.)
-
-[comment]: <> (```bibtex)
-
-[comment]: <> (```)
-
-[comment]: <> (---)
-
-[comment]: <> (## Contact)
-
-[comment]: <> (For any questions, welcome to create an issue or email Haoliang &#40;[haoliangzhou6@gmail.com]&#40;mailto:haoliangzhou6@gmail.com&#41;&#41;.)
-
-
-[comment]: <> (---)
-
-[comment]: <> (## Acknowledgement)
-
-[comment]: <> (- This codebase is based on [A]&#40;https:&#41; and [B]&#40;https:&#41; -- we thank the authors for their amazing works.)
 
 
 
