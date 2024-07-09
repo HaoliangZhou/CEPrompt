@@ -1,5 +1,5 @@
 # CEPrompt
-Official implementation and checkpoints for paper "CEPrompt: Cross-Modal Emotion-Aware Prompting for Facial Expression Recognition"
+Official implementation and checkpoints for paper "CEPrompt: Cross-Modal Emotion-Aware Prompting for Facial Expression Recognition" (accepted to IEEE TCSVT 2024) [![paper](https://img.shields.io/badge/Paper-87CEEB)](https://doi.org/10.1109/TCSVT.2024.3424777) <br> 
 
 ---
 ## Installation
