@@ -111,7 +111,8 @@ If you find our work helps, please cite our paper.
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   title={CEPrompt: Cross-Modal Emotion-Aware Prompting for Facial Expression Recognition}, 
   year={2024},
-  doi={10.1109/TCSVT.2024.3424777}}
+  doi={10.1109/TCSVT.2024.3424777}
+}
 
 ``` 
 
