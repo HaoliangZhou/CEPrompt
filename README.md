@@ -102,7 +102,7 @@ python3 train_fer_second_stage.py \
 --eval-ckpt ${EVACKPTPATH}   # path to second stage ckpt
 ```
 
-<!-- ---
+---
 ## Cite Our Work
 If you find our work helps, please cite our paper.
 ```
@@ -113,7 +113,7 @@ If you find our work helps, please cite our paper.
   year={2024},
   doi={10.1109/TCSVT.2024.3424777}}
 
-``` -->
+``` 
 
 ---
 ## Contact
