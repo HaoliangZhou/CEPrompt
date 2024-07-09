@@ -106,7 +106,13 @@ python3 train_fer_second_stage.py \
 ## Cite Our Work
 If you find our work helps, please cite our paper.
 ```
-bibtex
+@ARTICLE{Zhou2024CEPrompt,
+  author={Zhou, Haoliang and Huang, Shucheng and Zhang, Feifei and Xu, Changsheng},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={CEPrompt: Cross-Modal Emotion-Aware Prompting for Facial Expression Recognition}, 
+  year={2024},
+  doi={10.1109/TCSVT.2024.3424777}}
+
 ``` -->
 
 ---
