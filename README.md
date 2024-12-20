@@ -1,5 +1,13 @@
 # CEPrompt
-Official implementation and checkpoints for paper "CEPrompt: Cross-Modal Emotion-Aware Prompting for Facial Expression Recognition" (accepted to IEEE TCSVT 2024) [![paper](https://img.shields.io/badge/Paper-87CEEB)](https://doi.org/10.1109/TCSVT.2024.3424777) <br> 
+Official implementation and checkpoints for paper "CEPrompt: Cross-Modal Emotion-Aware Prompting for Facial Expression Recognition" (accepted to IEEE TCSVT 2024) [![paper](https://img.shields.io/badge/Paper-87CEEB)](https://doi.org/10.1109/TCSVT.2024.3424777) <be> 
+
+### Abstract <br>
+Facial expression recognition (FER) remains a challenging task due to the ambiguity and subtlety of expressions. To address this challenge, current FER methods predominantly prioritize visual cues while inadvertently neglecting the potential insights that can be gleaned from other modalities. Recently, vision-language pre-training (VLP) models integrated textual cues as guidance, culminating in a powerful multi-modal solution that has proven effective for a range of computer vision tasks. In this paper, we propose a Cross-Modal Emotion-Aware Prompting (CEPrompt) framework for FER based on VLP models. To make VLP models sensitive to expression-relevant visual discrepancies, we devise an Emotion Conception-guided Visual Adapter (EVA) to capture the category-specific appearance representations with emotion conception guidance. Moreover, knowledge distillation is employed to prevent the model from forgetting the pre-trained category-invariant knowledge. In addition, we design a Conception-Appearance Tuner (CAT) to facilitate the interaction of multi-modal information via cooperatively tuning between emotion conception and appearance prompts. In this way, semantic information about emotion text conception is infused directly into facial appearance images, thereby enhancing a comprehensive and precise understanding of expression-related facial details. Quantitative and qualitative experiments show that our CEPrompt outperforms state-of-the-art approaches on three real-world FER datasets.
+
+<p align="center">
+<img src="https://github.com/HaoliangZhou/CEPrompt/blob/master/ceprompt.png" width=100% height=100% 
+class="center">
+</p>
 
 ---
 ## Installation
