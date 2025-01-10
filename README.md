@@ -33,6 +33,7 @@ data/
 │  │  │  ├─ aligned/
 │  │  │  ├─ aligned_224/  # reagliend by MTCNN
 ```
+For the aligned images, we use the re-agliend images from [APVIT](https://github.com/youqingxiaozhua/APViT?tab=readme-ov-file#data-preparation).
 2. The downloaded [AffectNet](http://mohammadmahoor.com/affectnet/) are reorganized as follow:
 ```
 data/
